@@ -24,27 +24,50 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
-              <!-- <li class="nav-item"> -->
-                <!-- <a class="nav-link active" aria-current="page" href="#intro">Home</a> -->
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#intro">HOME</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#products">PRODUCTS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#pricing">PRICING</a>
+                <a class="nav-link" href="#price">PRICING</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#forms">FORMS</a>
+                <a class="nav-link" href="#contact">CONTACT</a>
               </li>
           </div>
         </div>
       </nav>
-      
-      <div class="background">      
-        <img class="img-fluid" src="https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F1139913060%2F0x0.jpg%3FcropX1%3D0%26cropX2%3D5123%26cropY1%3D308%26cropY2%3D3189" alt="" style="width: 100%;">
-              
+     <section id="intro"></section>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://i.pinimg.com/originals/43/8d/91/438d91333392dc0a5fc1bb11c8f71730.jpg" class="d-block w-100" alt="...">
           </div>
+          <div class="carousel-item">
+            <img src="https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F1139913060%2F0x0.jpg%3FcropX1%3D0%26cropX2%3D5123%26cropY1%3D308%26cropY2%3D3189" alt="" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="lips.jpeg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
+
+      <!-- <section id="intro"></section> -->
+      <!-- <div class="background">       -->
+        <!-- <img class="img-fluid" src="https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F1139913060%2F0x0.jpg%3FcropX1%3D0%26cropX2%3D5123%26cropY1%3D308%26cropY2%3D3189" alt="" style="width: 100%;"> -->
+              
+          <!-- </div> -->
+      <!-- </div> -->
 
     <!-- main image & intro text -->
     <section id="products">
@@ -56,7 +79,30 @@
                         <div class="display-5 text-danger">FOR ENHANCING YOUR LUSHES LIPS</div>
                     </h1>
                     <p class="lead my-4">Lipstick draws attention to the lips and makes them stand out. Lips are considered a sensual part of the body, and highlighting them can make women more attractive to the opposite sex. Some women may wear lipstick to feel better about their appearance.</p>
-                    <a href="#pricing" class="btn btn-danger btn-lg">Buy Now</a>
+                                      <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Buy Now
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            ...
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
                 </div>
                 <div class="col-md-5 text-center d-none d-md-block">
                     <img class="img-fluid" src="https://hw-media.herworld.com/public/2020/11/The-perfect-nude-lipstick-for-every-skin-tone.jpg" alt="">
@@ -75,7 +121,30 @@
                         <div class="display-5 text-danger">ENLONGATING YOUR LASHES </div>
                     </h1>
                     <p class="lead my-4">Mascara enhances the eyes in a number of ways. It not only darkens lashes, but can lengthen and volumize for brighter, bigger-looking eyes. Fuller-looking lashes can help to give a more youthful appearance to the eye area </p>
-                    <a href="#pricing" class="btn btn-danger btn-lg">Buy Now</a>
+                    <!-- Button trigger modal -->
+                          <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Buy Now
+                          </button>
+
+                          <!-- Modal -->
+                          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                  ...
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                  <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
                 </div>
                 <div class="col-md-5 text-center d-none d-md-block">
                     <img class="img-fluid" src="https://www.bananabeauty.co.uk/wp-content/uploads/sites/5/2020/08/Volume-Up-Main-1.jpg.webp" alt="">
@@ -94,7 +163,30 @@
                         <div class="display-5 text-danger">Clear complexion in minutes</div>
                     </h1>
                     <p class="lead my-4">Foundation is a liquid or powder makeup applied to the face to create an even, uniform color to the complexion, cover flaws and, sometimes, to change the natural skin tone. Some foundations also function as a moisturizer, sunscreen, astringent or base layer for more complex cosmetics.</p>
-                    <a href="#pricing" class="btn btn-danger btn-lg">Buy Now</a>
+                   <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Buy Now
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                ...
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
                 </div>
                 <div class="col-md-5 text-center d-none d-md-block">
                     <img class="img-fluid" src="https://media.allure.com/photos/60f97bc0318653b1768fae54/1:1/w_800,h_800,c_limit/Make%20Up%20For%20Ever%20Water%20Blend%20Face%20&%20Body%20Foundation.jpeg" alt="">
@@ -113,7 +205,30 @@
                         <div class="display-5 text-danger">Color your eyelids </div>
                     </h1>
                     <p class="lead my-4">All shades of purple, from eggplant to lavender, work on brown eyes because it brings out the truest brown color in your irises," says Ungaro. That's not all, the soft contrast of purple can make the whites of your eyes appear brighter, making you look more awake. </p>
-                    <a href="#pricing" class="btn btn-danger btn-lg">Buy Now</a>
+                    <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Buy Now
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                ...
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
                 </div>
                 <div class="col-md-5 text-center d-none d-md-block">
                     <img class="img-fluid" src="https://thebeautyminimalist.com/wp-content/uploads/2020/06/Photo-Jun-21-3-49-44-PM-scaled.jpg" alt="">
@@ -122,13 +237,69 @@
         </div>
     </section>
      <!-- pricing plans -->
-     <section id="pricing" class="bg-light mt-5">
+     <section id="price" class="bg-light mt-5">
         <div class="container-lg p-5">
             <div class="text-center">
               <h2>Pricings</h2>
               <p class="lead text-danger"> The best prices for you!</p>
             </div>
       
+            <div class="row my-5 g-0 align-items-center justify-content-center">
+              <div class="col-8 col-lg-4 col-xl-3">
+                <div class="card border-0">
+                  <div class="card-body text-center py-4">
+                    <h4 class="card-title">LIP LINE</h4>
+                    <p class="lead card-subtitle"> prices vary from as little as:</p>
+                    <p class="display-5 my-4 text-danger fw-bold">R199.99</p>
+                    <p class="card-text mx-5  d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, vitae magni! Repellat commodi a fuga corporis saepe dolorum.</p>
+                    <!-- <a href="#" class="btn btn-outline-danger btn-lg mt-3"> -->
+                      <!-- Buy Now -->
+                    <!-- </a> -->
+                    <button class="btn btn-outline-danger btn-lg mt-3" data-bs-toggle="modal" data-bs-target="exampleModal"> ugduah</button>
+                   
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col-9 col-lg-4">
+                <div class="card border-danger border-2">
+                  <div class="card-header text-center text-warning">Most Popular</div>
+                  <div class="card-body text-center py-5">
+                    <h4 class="card-title">FOUNDATION EDITION</h4>
+                    <p class="lead card-subtitle">prices vary from as little as:</p>
+                    <p class="display-4 my-4 text-danger fw-bold">R299.99</p>
+                    <p class="card-text mx-5 d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, vitae magni! Repellat commodi a fuga corporis saepe dolorum.</p>
+                    <a href="#" class="btn btn-outline-danger btn-lg mt-3">
+                      Buy Now
+                    </a>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col-8 col-lg-4 col-xl-3">
+                <div class="card border-0">
+                  <div class="card-body text-center py-4">
+                    <h4 class="card-title">MASCARA</h4>
+                    <p class="lead card-subtitle">prices vary from as little as:</p>
+                    <p class="display-5 my-4 text-danger fw-bold">R399.99</p>
+                    <p class="card-text mx-5 d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, vitae magni! Repellat commodi a fuga corporis saepe dolorum.</p>
+                    <a href="#" class="btn btn-outline-danger btn-lg mt-3">
+                      Buy Now
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+          </div><!-- end container -->
+
+
+           <!-- pricing plans -->
+     <section id="price" class="bg-light">
+        <div class="container-lg p-5">
+            <div class="text-center">
+              <!-- <p class="lead text-danger"> The best prices for you!</p> -->
+            </div>
             <div class="row my-5 g-0 align-items-center justify-content-center">
               <div class="col-8 col-lg-4 col-xl-3">
                 <div class="card border-0">
@@ -176,8 +347,9 @@
       
           </div><!-- end container -->
 
+
            <!-- contact form -->
-    <section id="forms">
+    <section id="contact">
         <div class="container-lg p-5">
           
           <div class="text-center">
@@ -193,16 +365,16 @@
                   <span class="input-group-text">
                     <i class="bi bi-envelope-fill text-danger"></i>
                   </span>
-                  <input type="text" id="email" class="form-control" placeholder="e.g. alex@example.com" />
+                  <input type="text" id="email" class="form-control" placeholder="example@gmail.com" />
                 </div>
                 <label for="name" class="form-label">Name:</label>
                 <div class="mb-4 input-group">
                   <span class="input-group-text">
                     <i class="bi bi-person-fill text-warning"></i>
                   </span>
-                  <input type="text" id="name" class="form-control" placeholder="e.g. Alex" />
+                  <input type="text" id="name" class="form-control" placeholder="name&surname" />
                 </div>
-                <label for="subject" class="form-label">What is your question about?</label>
+                <label for="subject" class="form-label">Question?</label>
                 <div class="mb-4 input-group">
                   <span class="input-group-text">
                     <i class="bi bi-chat-right-dots-fill text-primary"></i>
@@ -226,6 +398,8 @@
         </div>
       </section>
     </section>
+
+  
 
 <footer>
     <div class="lead text-center fw-light ">@copyright 2021 Tursha Arendse      
